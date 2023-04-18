@@ -1,0 +1,82 @@
+body {
+  background: #F2F2F2;
+  margin: 0;
+  font-family: "Times new roman";
+}
+
+.navbar {
+  background-color: rgb(100, 28, 128);
+  margin: 0;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .navbar-logo {
+  font-size: 3em;
+  color: white;
+}
+.navbar .navbar-menu {
+  color: white;
+  padding-right: 1em;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.image img {
+  width: 100%;
+  height: 60vh;
+}
+
+.hero {
+  background-color: rgb(177, 228, 249);
+  padding: 0.5em;
+  margin: 0;
+}
+.hero .hero-container {
+  text-align: center;
+  color: purple;
+}
+.hero h1 {
+  font-size: 3em;
+}
+.hero h2 {
+  font-size: 2.5em;
+}
+.hero p {
+  font-size: 1.3em;
+}
+
+.hero-container-btn {
+  padding: 0.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+button {
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+.foot {
+  background-color: black;
+  padding-top: 3em;
+  padding-bottom: 0.5em;
+}
+.foot .icons {
+  padding: 0;
+  margin-bottom: 1em;
+}
+.foot .fa {
+  background-color: white;
+  font-size: 2em;
+}
+.foot p {
+  color: white;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
